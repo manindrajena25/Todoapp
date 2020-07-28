@@ -1,0 +1,9 @@
+{% if user.authenticated %}
+Logged in as {{user.username}}
+{% else %}
+'Sorry'
+{% endif %}
+
+
+{% block content %}
+{% endblock %}
